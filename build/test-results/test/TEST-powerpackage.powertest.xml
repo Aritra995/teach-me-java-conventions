@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="powerpackage.powertest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-04-12T08:22:24" hostname="DESKTOP-TICE1IG" time="0.016">
+  <properties/>
+  <testcase name="power_of_2_and_3_Is_SIX" classname="powerpackage.powertest" time="0.011"/>
+  <testcase name="two_power_2_is_4" classname="powerpackage.powertest" time="0.0"/>
+  <testcase name="one_raised_to_one_is_onew" classname="powerpackage.powertest" time="0.0"/>
+  <testcase name="twoRaised_to_one_is_2" classname="powerpackage.powertest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
