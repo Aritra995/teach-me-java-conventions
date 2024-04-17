@@ -2,24 +2,23 @@ package powerpackage;
 
 public class PowerFinder {
 
-    private final int num;
-    private final int pow;
+    private final int number;
+    private final int power;
 
-    public PowerFinder(int num, int pow) {
-        this.num = num;
-        this.pow = pow;
+    public PowerFinder(int number, int power) {
+        this.number = number;
+        this.power = power;
     }
 
-    public static int OF(int num, int pow) {
-        int p = 1;
-        for (int i = 0; i<pow; i++) {
-            p = getP(num, p);
+    public static int getPowerOfNumber(int number, int power) {
+        int multiplier = 1;
+        for (int i = 0; i<power; i++) {
+            multiplier = getProduct(number, multiplier);
         }
-        return p;
+        return multiplier;
     }
 
-    private static int getP(int num, int p) {
-        p *= num;
-        return p;
+    private static int getProduct(int number, int multiplier) {
+        return multiplier *= number;
     }
 }
